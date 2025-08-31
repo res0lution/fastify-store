@@ -1,0 +1,20 @@
+{
+  "name": "departmental-store",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "res0lution",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon src/index.js"
+  },
+  "dependencies": {
+    "fastify": "^5.5.0",
+    "fastify-plugin": "^5.0.1",
+    "pg": "^8.16.3"
+  },
+  "devDependencies": {
+    "dotenv": "^17.2.1",
+    "nodemon": "^3.1.10"
+  }
+}
